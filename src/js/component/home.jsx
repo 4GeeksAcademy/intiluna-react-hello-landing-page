@@ -2,6 +2,7 @@ import React from "react";
 import Card from "../component/card.jsx"
 import Navbar from "../component/navbar.jsx"
 import Jumbotron from "../component/jumbotron.jsx"
+import Footer from "../component/footer.jsx"
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -22,7 +23,7 @@ const Home = () => {
 				</div>
 
 			</div>
-			<div>Footer</div>
+			<div> <Footer/> </div>
 
 		</div>
 

@@ -1,8 +1,9 @@
 import React from "react";
+import "../../styles/index.css"
 
 const Card = () => {
     return (
-    <div className="card">
+    <div className="card cardworker">
         <img src="http://www.barleymowhorsley.co.uk/img/office/our-office-8.jpg" className="card-img-top" alt="..."/>
         <div className="card-body">
             <h5 className="card-title">Card title</h5>
